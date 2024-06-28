@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Used Popcorn 🎬🍿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Used Popcorn**! This is a sleek and user-friendly React application that allows users to search for any movie and access detailed information, including IMDb ratings, plots, released year and much more. Additionally, users can rate movies based on their personal viewing experiences.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Movie Search**: Find any movie by its title and access a wealth of information.
+- **IMDb Ratings**: View the IMDb rating of each movie alongside other relevant details.
+- **User Ratings**: Rate movies based on your own viewing experience and see what others think.
+- **Detailed Information**: Access comprehensive movie details such as plot summary, cast, release date, and more.
+- **Responsive Design**: Enjoy a seamless experience across all devices, from desktop to mobile.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, React Hooks
+- **Styling**: CSS, Bootstrap
+- **APIs**: OMDB API for movie data
+- **State Management**: Context API
+- **Version Control**: Git, GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/used-popcorn.git
+2. Navigate to the project directory:
+   ```bash
+   cd usePopcorn
+3. Install the dependencies:
+   ```bash
+   npm install
+4. Run the application:
+   ```bash
+   npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Open your browser and navigate to `http://localhost:3000`
+- Use the search bar to find any movie by its title.
+- View the movie's IMDb rating and other details.
+- Rate the movie based on your viewing experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We welcome contributions to **Used Popcorn**! If you have suggestions for new features or improvements, feel free to create a pull request or open an issue.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [OMDB API](http://www.omdbapi.com/) for providing movie data.
+- The amazing React community for their support and resources.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+If you have any questions or feedback, feel free to reach out:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [Sophianx234](https://github.com/Sophianx234)
+- Email: dx4336969@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
