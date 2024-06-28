@@ -1,3 +1,4 @@
+/* Damian X  */
 import { useEffect, useState } from "react";
 import StarRating from "./StarRating";
 
@@ -399,3 +400,4 @@ function AddToList({handleWatched,movieInfo, setSelectedID, setMovieInfo, rating
       }>+ Add to list</button>
   )
 }
+
