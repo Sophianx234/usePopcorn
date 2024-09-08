@@ -73,15 +73,15 @@ export default function App(){
       </NavBar>
       <Main>
         <Box >
-        { !isLoading & !error &&  <MovieList 
+        { !isLoading & !error ?  <MovieList 
          movies={movies}
          handleSelected={handleSelected} 
          setSelectedID={setSelectedID} 
          selectedID={selectedID}
          handleRated={handleRated}
-          />} 
-        { isLoading  && <Loading/>} 
-        {  error  &&<Error/>} 
+          />: null} 
+        { isLoading ? <Loading/>: null} 
+        {  error  ?<Error/>: null} 
         </Box>
         <Box>
           <WatchedMovies selectedID={selectedID}
