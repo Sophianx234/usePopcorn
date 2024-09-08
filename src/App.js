@@ -38,7 +38,7 @@ export default function App(){
       try{
       setIsloading(true)
       setError('')
-      const res = await fetch(`http://www.omdbapi.com/?apikey=${MOVIE_API_KEY}&s=${query}`,{signal: AbortController.signal})
+      const res = await fetch(`https://www.omdbapi.com/?apikey=${MOVIE_API_KEY}&s=${query}`,{signal: AbortController.signal})
       if(!res.ok) throw new Error('Could not fetch')
       const data = await res.json()
       setMovies(data.Search)
